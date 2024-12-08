@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  
+  <div class="login-form d-block">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="form-body d-flex flex-column align-items-center gap-4 mt-4" id="log-form">
+          <h1>Login System</h1>
+          <input type="email" name="email" id="ex-email" placeholder="Enter Your Email" class="form-control">
+          <input type="password" name="password" id="ex-password" placeholder="Enter Your Password" class="form-control" >
+          <p id="log-alert" class="text-danger fw-bold"></p>
+          <button type="submit" class="btn btn-primary w-50 btn-login mt-2" id="btn-login">Login</button>
+          <p>Don't have an account? <span class="text-decoration-none fw-bold" id="a-signUp"> Sign Up</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="signup-form d-none">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="form-body d-flex flex-column align-items-center gap-4 mt-4" id="sign-form" >
+          <h1>Signup System</h1>
+          <input type="text" name="name" id="new-name" placeholder="Enter Your Name" class="form-control">
+          <input type="email" name="email" id="new-email" placeholder="Enter Your Email" class="form-control">
+          <input type="password" name="password" id="new-password" placeholder="Enter Your Password" class="form-control" >
+          <p id="alert" class="text-danger fw-bold"></p>
+          <button type="submit" class="btn btn-primary w-50 btn-login" id="btn-signup">Sign Up</button>
+          <p>You have an account? <span class="text-decoration-none fw-bold" id="a-signIn"> SignIn</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

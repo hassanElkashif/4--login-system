@@ -1,0 +1,45 @@
+.login-form,.signup-form {
+  margin-top: 3rem;
+}
+.form-body , .message-body {
+  background-color: rgb(250, 250, 250);
+  width: 70%;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: -1px 0px 33px -5px rgba(0,0,0,0.3);
+}
+.form-control {
+  --bs-body-bg : transparent;
+  border: none;
+  width: 70%;
+  border-bottom: 0.15rem solid rgb(8, 19, 182);
+}
+p,h2 {
+  color: rgb(10, 121, 248);
+}
+span {
+  cursor: pointer;
+}
+h2 {
+  font-size: 4rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0;
+}
+.container-fluid {
+  width: 60%;
+  padding: 1rem;
+}
+.navbar-brand {
+  color: rgb(10, 121, 248);
+}
+.message-body  {
+  margin-bottom: 10rem;
+  width: 100%;
+  max-width: 47.5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.main {
+  height: 100vh;
+}
